@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-09T12:28:18 IST" name="Default suite" finished-at="2024-02-09T12:28:41 IST" duration-ms="23132">
+    <groups>
+    </groups>
+    <test started-at="2024-02-09T12:28:18 IST" name="Default test" finished-at="2024-02-09T12:28:41 IST" duration-ms="23132">
+      <class name="Extent_Reports.Search_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Extent_Reports.Search_Test@351d00c0]" started-at="2024-02-09T12:28:18 IST" name="beforeClass" finished-at="2024-02-09T12:28:32 IST" duration-ms="14215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testSearch1()[pri:0, instance:Extent_Reports.Search_Test@351d00c0]" started-at="2024-02-09T12:28:32 IST" name="testSearch1" description="Search Jewelry" finished-at="2024-02-09T12:28:35 IST" duration-ms="3219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch1 -->
+        <test-method signature="testSearch2()[pri:0, instance:Extent_Reports.Search_Test@351d00c0]" started-at="2024-02-09T12:28:35 IST" name="testSearch2" description="Search Apparel and shoe" finished-at="2024-02-09T12:28:39 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Extent_Reports.Search_Test@351d00c0]" started-at="2024-02-09T12:28:39 IST" name="afterClass" finished-at="2024-02-09T12:28:41 IST" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Extent_Reports.Search_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
