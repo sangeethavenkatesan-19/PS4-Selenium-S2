@@ -1,0 +1,14 @@
+pipeline{
+	agent any
+	triggers{
+		pollSCM ('* * * * *')
+	}
+	stages{
+		stage('Maven Build'){
+			steps{
+				echo '--------------Maven build test--------------'
+				bat 'mvn clean test'
+			}
+		}
+	}
+}
